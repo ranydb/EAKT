@@ -14,7 +14,7 @@ This is an implementation of the EAKT model, described in the following paper: E
 
 # Contributors
 
-- **Yanjun Pu**: yliang@buaa.edu.cn 
+- **Yanjun Pu**: buaapyj@buaa.edu.cn 
 - **Fang Liu** : liufangg@buaa.edu.cn
 - **Tianhao Peng**: pengtianhao@buaa.edu.cn
 
@@ -22,7 +22,7 @@ This is an implementation of the EAKT model, described in the following paper: E
 _State Key Laboratory of Software Development Environment Admire Group, School of Computer Science and Engineering, Beihang University_
 
 # Dataset
-The `csv` folder has four datasets, [assist2009](https://sites.google.com/site/assistmentsdata/home/assistment-2009-2010-data/skill-builder-data-2009-2010), [assist2015](ASSISTment2015:https://sites.google.com/site/assistmentsdata/home/2015-assistments-skill-builder-data), [assist2017](https://sites.google.com/view/assistmentsdatamining/dataset), simulation. Every dataset include three files:train data, test data, and Q-matrix data.
+The `csv` folder has four datasets, [assist2009](https://sites.google.com/site/assistmentsdata/home/assistment-2009-2010-data/skill-builder-data-2009-2010), [assist2015](https://sites.google.com/site/assistmentsdata/home/2015-assistments-skill-builder-data), [assist2017](https://sites.google.com/view/assistmentsdatamining/dataset), simulation. Every dataset include three files:train data, test data, and Q-matrix data.
 
 The statistical information of the above datasets is given in following Table.
 
