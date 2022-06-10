@@ -67,14 +67,16 @@ Options:
 
 #### example
 ```
-### Run EAKT model with assist2009 dataset.
-`python -m evaluation.run eakt --data=assist2009updated --questions=110 --kc=30 --heads=8 --hidden=128 --bs=5 --epochs=20 --save_epoch=19 --lr=0.001 --weight_decay=0.000001 --sigmoida=1 --sigmoidb=0`
+# Run EAKT model with assist2009 dataset.
+python -m evaluation.run eakt --data=assist2009updated --questions=110 --kc=30 --heads=8 --hidden=128 --bs=5 --epochs=20 --save_epoch=19 --lr=0.001 --weight_decay=0.000001 --sigmoida=1 --sigmoidb=0
 
-###Run EAKT model with assist2015 dataset.
+# Run EAKT model with assist2015 dataset.
 python -m evaluation.run eakt --data=assist2015 --questions=100 --kc=10 --heads=8 --hidden=128 --bs=64 --epochs=20 --save_epoch=19 --lr=0.001 --weight_decay=0 --sigmoida=1 --sigmoidb=0
-###Run EAKT model with assist2017 dataset.
+
+# Run EAKT model with assist2017 dataset.
 python -m evaluation.run eakt --data=assist2017 --questions=102 --kc=10 --heads=8 --hidden=128 --bs=5 --epochs=20 --save_epoch=19 --lr=0.001 --weight_decay=0.000001 --sigmoida=1 --sigmoidb=0
-###Run EAKT model with simu dataset.
+
+# Run EAKT model with simu dataset.
 python -m evaluation.run eakt --data=simu --questions=30 --kc=10 --heads=8 --hidden=256 --bs=32 --epochs=10 --save_epoch=9 --lr=0.00001 --weight_decay=0 --sigmoida=10 --sigmoidb=6.9
 ```
 
