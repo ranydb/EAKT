@@ -8,9 +8,11 @@
 <br><br>
 <b>Figure 1.</b> The architecture of EAKT.
 </p>
+
 # About
 
 This is an implementation of the EAKT model, described in the following paper: EAKT: Embedding Cognitive Framework with Attention for Interpretable Knowledge Tracing.
+The datasets generated and/or analysed during the current study are available in the [EAKT](https://github.com/ranydb/EAKT) repository, [https://github.com/ranydb/EAKT]
 
 # Contributors
 
